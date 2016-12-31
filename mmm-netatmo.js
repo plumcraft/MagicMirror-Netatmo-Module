@@ -6,7 +6,7 @@
  */
  /* eslint-disable max-len */
  /* global $, Q, moment, Module, Log */
-Module.register('netatmo', {
+Module.register('mmm-netatmo', {
   // default config
   defaults: {
     refreshToken: null,
