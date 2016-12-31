@@ -245,7 +245,7 @@ Module.register('mmm-netatmo', {
   },
   getStyles: function() {
     return [
-      'netatmo.css'
+      'mmm-netatmo.css'
     ];
   },
   getTranslations: function() {
@@ -257,7 +257,7 @@ Module.register('mmm-netatmo', {
   },
   getDom: function() {
     return $(
-      '<div class="netatmo">' +
+      '<div class="mmm-netatmo">' +
         (this.dom ?
           this.dom +
           this.html.update.format(moment(new Date(1000 * this.lastUpdate)).fromNow()) +
