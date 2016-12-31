@@ -57,11 +57,11 @@ Module.register('mmm-netatmo', {
        x + ' ' +
        y + ' z';
 
-    var loader = $('.netatmo .loadTimer .loader');
+    var loader = $('.mmm-netatmo .loadTimer .loader');
     if (loader.length > 0) {
       loader.attr('d', anim);
     }
-    var border = $('.netatmo .loadTimer .border');
+    var border = $('.mmm-netatmo .loadTimer .border');
     if (border.length > 0) {
       border.attr('d', anim);
     }
